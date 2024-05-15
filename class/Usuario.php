@@ -43,7 +43,7 @@ class Usuario {
 
         $sql = new Sql();
 
-        $result = $sql->select("SELECT * FROM tb_usuarios WHERE idusuario = :ID", array(
+        $results = $sql->select("SELECT * FROM tb_usuarios WHERE idusuario = :ID", array(
             ":ID"=>$id
         ));
 
